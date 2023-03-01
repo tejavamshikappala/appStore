@@ -1,0 +1,26 @@
+.forImageInApp {
+  height: 65px;
+  width: 65px;
+  margin: 15px;
+}
+.forParaa {
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.forListInappItem {
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}

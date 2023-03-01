@@ -1,0 +1,66 @@
+.forOuter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  overflow: auto;
+  padding-top: 30px;
+}
+.forHeader {
+  font-size: 30px;
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.forSearch {
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+
+  font-size: 18px;
+}
+.forUl {
+  display: flex;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
+}
+.forImage {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+.forDiv {
+  display: flex;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #7b8794;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 5px;
+}
+.forLine {
+  color: black;
+}
+.forUlListContainer {
+  display: flex;
+  margin-left: 0px;
+  padding: 0px 50px 50px 50px;
+  flex-wrap: wrap;
+  width: 70vw;
+  justify-content: center;
+
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .forUlListContainer {
+    width: 80vw;
+  }
+  .forHeader {
+    font-size: 34px;
+    margin-top: 40px;
+  }
+}
